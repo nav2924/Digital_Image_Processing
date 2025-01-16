@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Baldness', 'DANDRUFF', 'good hair', 'hairfall', 'white hair']
+
+roboflow:
+  workspace: sreenithi
+  project: hairproblems-detection
+  version: 13
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sreenithi/hairproblems-detection/dataset/13
