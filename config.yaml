@@ -1,0 +1,6 @@
+train: train
+val: valid
+test: test
+
+nc: 5 
+names: ['Baldness', 'DANDRUFF', 'good hair', 'hair fall', 'white hair']
