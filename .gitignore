@@ -1,0 +1,6 @@
+runs/
+cnn_dataset/
+test/
+valid/
+model/
+train/
