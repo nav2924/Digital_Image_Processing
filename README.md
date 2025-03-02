@@ -1,19 +1,28 @@
+
 # Hair Disease Classification using CNN and YOLOv8
 
 
 This project uses a Convolutional Neural Network (CNN) to classify images of hair diseases. The model is trained on a dataset containing images of various hair-related conditions and performs classification into one of the following categories:
 
-The project also involves various image preprocessing techniques, including denoising, Contrast Limited Adaptive Histogram Equalization (CLAHE), and data augmentation to improve model accuracy.
+- Alopecia Areata
+- Head Lice
+- Psoriasis
+- Folliculitis
 
-Table of Contents
-Project Overview
-Technologies Used
-Dataset
-Setup Instructions
-Training the Model
-Evaluation and Prediction
-Visualizing Results
-License
+## Table of Contents
+
+- Project Overview
+- Technologies Used
+- Dataset
+- Setup Instructions
+- Training the Model
+- Evaluation and Prediction
+- Visualizing Results
+- License
+
+## Project Overview
+This project aims to classify images of different hair diseases using a CNN model. The model leverages advanced image processing techniques and multiple data augmentation methods to enhance the classification accuracy. It is trained and evaluated on a custom dataset containing labeled images of various hair diseases.
+
 
 ## Project Overview
 This project aims to classify images of different hair diseases using a CNN model. The model leverages advanced image processing techniques and multiple data augmentation methods to enhance the classification accuracy. It is trained and evaluated on a custom dataset containing labeled images of various hair diseases.
@@ -25,3 +34,4 @@ OpenCV: Image processing library used for preprocessing, including denoising and
 NumPy: For handling array manipulations.
 Matplotlib: For plotting training and validation metrics.
 Scikit-learn: For one-hot encoding the labels.
+
