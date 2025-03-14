@@ -49,9 +49,6 @@ Converted into folders for CNN using custom preprocessing and label-parsing logi
 - ✅ Model trained and saved in .h5 format for easy deployment.
 
 
-# 🧠 Hair Disease Detection using CNN + GUI
-
-This project is focused on detecting different scalp/hair diseases such as Alopecia Areata, Head Lice, Psoriasis, and Folliculitis using a Convolutional Neural Network (CNN) along with image preprocessing (denoising + CLAHE). It also includes a Tkinter-based GUI for real-time image prediction.
 
 ## 📁 Dataset & Labeling
 Dataset used: Images categorized into 4 classes:
