@@ -121,8 +121,9 @@ python gui_predictor.py
 - Tkinter (comes with Python)
 
 ## Authors
-
 - [@SoumyadipRoy](https://github.com/SoumyadipRoy17)
 - [@Naveel Vk](https://github.com/Naveel-VK)
 - [@Zeba KP](https://github.com/zeba262)
+- [@Naveen V](https://github.com/nav2924)
+
 
