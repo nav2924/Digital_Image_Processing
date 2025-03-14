@@ -64,29 +64,6 @@ Converted into folders for CNN using custom preprocessing and label-parsing logi
 - ✅ CLAHE (Contrast Limited Adaptive Histogram Equalization) for local contrast enhancement
 - ✅ Resized images to (224x224)
 - ✅ Normalized pixel values to [0, 1]
-
-## 🧠 Model Architecture
-- Built using TensorFlow / Keras
-- Includes:
-   - Convolutional Layers
-    - MaxPooling
-    - Dropout
-    - Fully Connected (Dense) layers
-- Trained with ImageDataGenerator for data augmentation
-
-
-## 📊 Training
-- Trained for 25 epochs
-- Tracked training & validation accuracy/loss
-- Best epoch selected based on validation accuracy
-- Model saved as cnn_model.h5
-
-## 🖥 GUI (Tkinter)
-- Select an image using file dialog
-- Displays the selected image
-- Outputs:
-    - Predicted disease class
-    - Confidence score
 ## Directory Usage
 
 ```bash
