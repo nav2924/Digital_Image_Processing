@@ -3,20 +3,6 @@
 
 This project is focused on detecting different scalp/hair diseases such as Alopecia Areata, Head Lice, Psoriasis, and Folliculitis using a Convolutional Neural Network (CNN) along with image preprocessing (denoising + CLAHE). It also includes a Tkinter-based GUI for real-time image prediction.
 
-## 📁 Dataset & Labeling
-Dataset used: Images categorized into 4 classes:
-Alopecia areata
-Head Lice
-Psoriasis
-Folliculitis
-Labels were originally YOLO-formatted.
-Converted into folders for CNN using custom preprocessing and label-parsing logic.
-
-## 🧪 Preprocessing Steps
-- ✅ Image Denoising using cv2.fastNlMeansDenoisingColored
-- ✅ CLAHE (Contrast Limited Adaptive Histogram Equalization) for local contrast enhancement
-- ✅ Resized images to (224x224)
-- ✅ Normalized pixel values to [0, 1]
 
 ## 🧠 Model Architecture
 - Built using TensorFlow / Keras
