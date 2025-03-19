@@ -90,7 +90,7 @@ python gui_predictor.py
 - [@Naveen V](https://github.com/nav2924)
 
 
-GUI :
+## GUI :
 ![image](https://github.com/user-attachments/assets/8102b649-88b3-4bc6-b652-312c5df47afb)
 
 
