@@ -83,7 +83,8 @@ python gui_predictor.py
 - Pillow (PIL)
 - Tkinter (comes with Python)
 ## Dataset 
-<h5><a href="https://universe.roboflow.com/nayab-waris-hfzbj/hair-and-scalp-disease/dataset/4">Click here for dataset</a></h5>
+<h5><a href="https://universe.roboflow.com/nayab-waris-hfzbj/hair-and-scalp-disease/dataset/4">Click here 👆</a></h5>
+
 ## Authors
 - [@SoumyadipRoy](https://github.com/SoumyadipRoy17)
 - [@Naveel Vk](https://github.com/Naveel-VK)
