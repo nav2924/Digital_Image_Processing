@@ -7,13 +7,10 @@ import urllib.request
 import os
 
 # ---------------------- CONFIG ---------------------- #
+st.set_page_config(page_title="Hair Disease Detection", layout="centered")  # ✅ MOVE THIS TO TOP
+
 MODEL_URL = "https://huggingface.co/naveen29012004/cnn_model.h5/resolve/main/cnn_model.h5"
 MODEL_PATH = "cnn_model.h5"
-
-if not os.path.exists(MODEL_PATH):
-    os.makedirs("model", exist_ok=True)
-    with st.spinner("🔄 Downloading model..."):
-        urllib.request.urlretrieve(MODEL_URL, MODEL_PATH)
 
 CLASS_NAMES = ["Alopecia areata", "Head_Lice", "Psoriasis", "Folliculitis"]
 IMG_SIZE = (224, 224)
@@ -47,7 +44,6 @@ def preprocess_image(image: Image.Image):
     return np.expand_dims(resized, axis=0)
 
 # ---------------------- UI ---------------------- #
-st.set_page_config(page_title="Hair Disease Detection", layout="centered")
 st.title("🧠 Hair Disease Detection")
 st.write("Upload a scalp image to detect possible hair-related conditions.")
 
