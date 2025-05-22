@@ -4,3 +4,75 @@ test/
 valid/
 model/
 train/
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Streamlit cache and logs
+.streamlit/
+logs/
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Python egg info
+*.egg-info/
+dist/
+build/
+
+# Model files (optional – only if you don’t want to commit them)
+# comment this out if you want cnn_model.h5 tracked
+*.h5
+*.hdf5
+
+# OS / Editor folders
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker
+*.tar
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Streamlit cache and logs
+.streamlit/
+logs/
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Python egg info
+*.egg-info/
+dist/
+build/
+
+# Model files (optional – only if you don’t want to commit them)
+# comment this out if you want cnn_model.h5 tracked
+*.h5
+*.hdf5
+
+# OS / Editor folders
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker
+*.tar
