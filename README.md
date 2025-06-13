@@ -1,36 +1,46 @@
 # 🧠 Hair Disease Detection System using Deep Learning
 
-A powerful and efficient Hair Disease Detection System that leverages Deep Learning (CNN), Image Processing (CLAHE), and Object Detection (YOLOv8) to classify and localize scalp-related conditions.
+An intelligent and efficient system designed to detect and localize scalp-related diseases using deep learning and computer vision techniques. This project combines **CNN-based classification**, **image preprocessing (CLAHE)**, and **YOLOv8-based object detection** into a single, user-friendly platform.
 
 🌐 **Live Demo:** [Streamlit App](https://hair-health.onrender.com/)  
 📦 **GitHub Repository:** https://github.com/nav2924/hair-disease-detection
 
 ---
 
-## 🚀 Key Features
+## 🚀 Features
 
-- ✅ **Preprocessing Pipeline:** Denoising and Contrast Limited Adaptive Histogram Equalization (CLAHE) for image enhancement.
-- 🧠 **Deep Learning:** CNN model trained on enhanced and balanced image datasets.
-- 🎯 **YOLOv8 Integration:** For precise detection and localization of affected scalp regions.
-- 🖼️ **Streamlit GUI:** Upload an image and instantly get predictions in a user-friendly interface.
-- 📈 **High Accuracy:** Achieved through data augmentation, hyperparameter tuning, and robust training.
-
----
-
-## 🔧 Tech Stack
-
-| Component    | Tools / Libraries                        |
-|--------------|-------------------------------------------|
-| Language     | Python                                    |
-| Deep Learning| TensorFlow, Keras                         |
-| Image Processing | OpenCV, CLAHE                        |
-| Detection    | YOLOv8 (Ultralytics)                      |
-| UI           | Streamlit                                 |
-| Others       | NumPy, Matplotlib, Scikit-learn           |
+- 🔍 **Advanced Preprocessing Pipeline:** Denoising and CLAHE (Contrast Limited Adaptive Histogram Equalization) improve image clarity and contrast.
+- 🧠 **Deep Learning Classification:** CNN trained on enhanced and balanced datasets for accurate disease prediction.
+- 🎯 **YOLOv8 Detection:** Localizes affected scalp regions for precise diagnosis assistance.
+- 🖼️ **Interactive UI:** Streamlit-powered interface for easy image upload and instant feedback.
+- 📊 **Optimized Accuracy:** Achieved via data augmentation, hyperparameter tuning, and proper validation techniques.
 
 ---
 
-## 🧪 How to Run Locally
+## 🧪 Tech Stack
+
+| Category           | Tools / Libraries                              |
+|--------------------|-------------------------------------------------|
+| Language           | Python                                          |
+| Deep Learning      | TensorFlow, Keras                               |
+| Image Processing   | OpenCV, CLAHE                                   |
+| Object Detection   | YOLOv8 (Ultralytics)                            |
+| User Interface     | Streamlit                                       |
+| Utilities          | NumPy, Matplotlib, scikit-learn                 |
+
+---
+
+## 🧬 System Architecture
+
+```text
+Raw Image → Preprocessing (CLAHE + Denoising) → CNN Classifier → YOLOv8 Detector → Output with Mask & Prediction
+```
+
+---
+
+## 💻 Getting Started
+
+Clone the repository and run the application locally:
 
 ```bash
 git clone https://github.com/nav2924/hair-disease-detection.git
@@ -42,12 +52,13 @@ streamlit run app.py
 ---
 
 ## 📸 Sample Output
+![image](https://github.com/user-attachments/assets/52cf7499-3dca-47a5-a8a5-d9f5a5fde911)
+![image](https://github.com/user-attachments/assets/2c52fe9d-7a99-49b0-b151-315ff0567b4a)
 
-![Sample GUI](screenshots/prediction_sample.png)
 
 ---
 
-## 👥 Team Members
+## 👨‍💻 Team
 
 - [Naveen V K](https://www.linkedin.com/in/naveen-v-k)
 - [Zeba K P](https://www.linkedin.com/in/zeba-k-p)
@@ -55,17 +66,18 @@ streamlit run app.py
 
 ---
 
-## 💡 Future Scope
+## 🔭 Future Enhancements
 
-- 📱 Deploy as a mobile app using Flutter or React Native.
-- 🧪 Expand dataset to include more diverse hair/scalp conditions.
-- 🩺 Collaborate with dermatologists for clinical validation.
+- 📱 **Mobile Deployment:** Integration with Flutter or React Native for Android/iOS support.
+- 🧬 **Dataset Expansion:** Inclusion of more diverse hair and scalp disease categories.
+- 🧑‍⚕️ **Clinical Collaboration:** Partnering with dermatologists for expert validation and feedback.
+- 📈 **Explainability:** Add Grad-CAM visualizations for model interpretability.
 
 ---
 
-## 🙌 Acknowledgments
+## 🙏 Acknowledgements
 
-A huge shoutout to the team for their collaborative spirit, countless hours of debugging, and innovative brainstorming!
+We thank our team members for their dedicated contributions, collaborative energy, and relentless debugging efforts that made this project a success.
 
 ---
 
